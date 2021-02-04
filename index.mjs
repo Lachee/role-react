@@ -118,6 +118,10 @@ discord.on('guildMemberUpdate', (oldMember, member) => {
     }
 });
 
+discord.on('ready', () => {
+    console.log('application ready');
+});
+
 /** Creates a Timeout that will expire and call the reject function.
  * Useful for promises
  */
@@ -126,4 +130,5 @@ function timeout(time, reject) {
     return to;
 }
 
+console.log('application loading...');
 discord.login(process.env.TOKEN);
