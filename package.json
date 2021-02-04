@@ -1,0 +1,24 @@
+{
+  "name": "role-react",
+  "version": "1.0.0",
+  "description": "Discord Bot to add roles on reactions.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lachee/role-react.git"
+  },
+  "author": "Lachee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lachee/role-react/issues"
+  },
+  "homepage": "https://github.com/Lachee/role-react#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0"
+  }
+}
