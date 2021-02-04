@@ -111,16 +111,7 @@ discord.on('message', async (msg) => {
     }
 });
 
-discord.on('guildMemberUpdate', (oldMember, member) => {
-    let diff = member.roles.cache.difference(oldMember.roles.cache);
-    if(diff.size == 1) {
-        console.log('diff', diff);
-    }
-});
-
-discord.on('ready', () => {
-    console.log('application ready');
-});
+discord.on('ready', () => { console.log('application ready'); });
 
 /** Creates a Timeout that will expire and call the reject function.
  * Useful for promises
