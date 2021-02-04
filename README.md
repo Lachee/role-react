@@ -21,3 +21,7 @@ Quick guide how to setup the bot
 ### Configure
 After you invited the bot to the server, run `$create` in discord.
 This will take you through a wizard.
+
+**NOTE**
+
+Make sure you have the bot's role higher than all the roles you wish to award.
