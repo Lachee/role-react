@@ -9,12 +9,12 @@ Quick guide how to setup the bot
 
 * Node 14 or newer
 * NPM
-* Discord Application
+* [Discord Application](https://discord.com/developers/applications)
 
 ### Run Steps
 
 1. `cp .env-sample .env`
-2. `nano .env` (or `vim`, you do you. Setup the bot token here)
+2. `nano .env` (or `vim`, you do you. Setup the bot token here. Or notepad++.... just edit this text file)
 3. `npm i`
 4. `node index.mjs`
 
